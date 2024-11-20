@@ -1,0 +1,58 @@
+.user-card {
+    display: flex;
+    width: 100%;
+}
+
+.user-name-card-container {
+    height: 5vh;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.id-styling {
+    min-width: 30px;
+}
+.alignment-container {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 575px) {
+    .id-styling {
+        font-size: 12px;
+    }
+    .user-name {
+        font-size: 12px;
+    }
+}
+
+.email-styling {
+    min-width: 300px;
+    text-align: center;
+}
+@media screen and (max-width: 575px) {
+    .email-styling {
+        min-width: 150px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .id-styling {
+        font-size: 18px;
+    }
+    .user-name {
+        font-size: 18px;
+    }
+}
+
+.button-styling {
+    height: 25px;
+    width: 70px;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
