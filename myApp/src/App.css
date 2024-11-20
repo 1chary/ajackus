@@ -2,3 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
+.app-background {
+  background-image: url("https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-63489.jpg");
+}
