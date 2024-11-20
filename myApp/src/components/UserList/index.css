@@ -5,7 +5,7 @@
 }
 .alignment-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -25,4 +25,19 @@
     .new-user-button-style {
         width: 100px;
     }
+}
+
+.add-new-user-container {
+    height: 40vh;
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-box {
+    height: 20px;
+    width: 250px;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
